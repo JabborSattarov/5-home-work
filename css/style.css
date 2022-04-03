@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #00262c;
+}
+header{
+    display: flex;
+    background-color: #00262c;
+    padding: 12px 100px;
+    border-bottom: 2px solid orangered;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orangered;
+}
+.sec-1{
+    display: flex;
+    justify-content:center;
+    width: 70%;
+    height: 90vh;
+    overflow-y:scroll;
+}
+.list-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    padding: 10px;
+    background: rgba(238, 236, 236, 0.801);
+    margin:20px 0 ;
+    list-style: none;
+}
+.img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.title{
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 10px;
+}
+.bookmarkBtn{
+    padding: 5px 16px;
+    margin: 20px 0px;
+    background: #00262c;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 12px;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.sec-2{
+    width: 30%;
+    height: 90vh;
+    overflow: scroll;
+   
+}
+.deleteBtn{
+    padding: 5px 16px;
+    margin: 20px 0px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+.list-2{
+    width: 100%;
+  
+}
+.item-2{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00262c;
+    color: #fff;
+}
+.head{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    padding: 5px 10px;
+    color: orangered;
+    font-size: 22px;
+    border-bottom: 2px solid orangered;
+    background: #00262c;
+}
+#inpSearch{
+    padding: 10px 16px;
+    width: 400px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+}
